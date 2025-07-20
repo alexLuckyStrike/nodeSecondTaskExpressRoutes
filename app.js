@@ -28,7 +28,7 @@ router.post("/submit", (req, res) => {
 });
 
 app.use("/", router);
-app.use("/action", router);
-app.use("/form", router);
+// app.use("/action", router);
+// app.use("/form", router);
 
 app.listen(1000);
